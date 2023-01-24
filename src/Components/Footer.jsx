@@ -17,12 +17,12 @@ const Footer = () => {
           Join the Waitlist
         </a>
 
-        <div className="flex flex-col text-right">
-          <p className="text-3xl font-bold">Daily</p>
+        <div className="flex flex-col text-right self-start">
+          <p className="text-3xl font-bold self-start">Daily</p>
         </div>
       </div>
 
-      <div className=" flex flex-col lg:flex-row items-start lg:items-center md:justify-between lg:mt-5">
+      <div className=" flex flex-col h-full lg:flex-row items-start lg:items-center md:justify-between">
         <a
           href="#"
           target="_blank"
@@ -31,7 +31,7 @@ const Footer = () => {
         >
           Terms of Use & Privacy Policy
         </a>
-        <a href="" className="font-medium text-md">
+        <a href="" className="font-medium text-md mb-0 pb-0 self-start lg:self-end">
           usedaily.io
         </a>
       </div>

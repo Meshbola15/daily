@@ -14,10 +14,10 @@ const Hero = () => {
 
   return (
     <div className="w-full min-h-screen gradient-background px-10 py-10 lg:px-12 lg:py-5">
-      <h2 className="text-white text-[25px] lg:text-[40px] font-bold mb-20 lg:mb-5">
+      <h2 className="text-white text-[25px] lg:text-[40px] font-bold mb-20 lg:mb-5 bg-transparent">
         Daily
       </h2>
-      <div className="flex items-center justify-between flex-col lg:flex-row w-full">
+      <div className="flex items-center justify-between flex-col lg:flex-row w-full bg-img">
         <div className="text-white text-center mt-0 mr-0 lg:mr-10 lg:w-[50vw] lg:text-left w-full">
           <h2 className=" text-4xl mb-4 lg:text-6xl font-bold">
             Easy Crypto Spending
@@ -38,11 +38,12 @@ const Hero = () => {
         <img
           src={Iphone}
           alt="Image"
-          className=" mt-12 h-auto w-full lg:-mt-24 lg:w-auto lg:h-screen mr-0 pr-0"
+          className=" mt-12 h-auto w-full lg:-mt-[30px] lg:mr-[120px] lg:w-auto lg:h-[95vh] mr-0 pr-0"
         />
         {/* <img src="" alt="" class /> */}
       </div>
-      <div className="flex flex-col items-center justify-center my-[120px] text-center lg:text-left lg:my-0 lg:min-h-screen lg:justify-between lg:flex-row">
+      <div className="flex flex-col b items-center justify-center my-[120px] text-center lg:text-left lg:my-0 lg:min-h-screen lg:justify-between lg:flex-row">
+        <img src={Card} alt="Daily_card" className="lg:mt-0 mt-20" />
         <div className="text-white w-full h-auto lg:w-[45vw]">
           <h2 className="text-5xl font-bold mb-5">Daily</h2>
           <p className="text-lg lg:text-xl text-neutral-400">
@@ -52,10 +53,9 @@ const Hero = () => {
             while earning $DAILY rewards."
           </p>
         </div>
-        <img src={Card} alt="Daily_card" className="lg:mt-0 mt-20" />
       </div>
 
-      <div className="my-20 lg:min-h-screen flex items-center flex-col lg:flex-row justify-between">
+      <div className="my-20 bg-img lg:min-h-screen flex items-center flex-col lg:flex-row justify-between">
         <div className="flex items-start w-full lg:w-1/2 justify-start flex-col">
           <div className="items-center flex flex-row justify-start mb-4">
             <img
@@ -125,7 +125,7 @@ const Hero = () => {
         <img
           src={App}
           alt="App"
-          className="w-full mt-10 lg:mt-0 md:w-[50vw] ml-0 lg:h-[100vh] lg:w-auto"
+          className="w-full mt-10 lg:mt-0 md:w-[50vw] ml-0 mr-0 lg:mr-[120px] lg:h-[95vh] lg:w-auto"
         />
       </div>
     </div>
