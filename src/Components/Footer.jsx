@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className="relative flex flex-col lg:flex-row items-start lg:items-center lg:justify-between">
         <div className="text-black flex flex-col">
           <p className="text-3xl font-bold">Contacts</p>
-          <a href="mailto:info@usedaily.ioun">info@usedaily.ioun</a>
+          <a href="mailto:info@usedaily.io">info@usedaily.io</a>
         </div>
         <a
           href="http://"
@@ -23,14 +24,14 @@ const Footer = () => {
       </div>
 
       <div className=" flex flex-col h-full lg:flex-row items-start lg:items-center md:justify-between">
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
+        <p
           className="mt-7 font-medium text-md "
         >
-          Terms of Use & Privacy Policy
-        </a>
+          <Link to="/terms">Terms of Use </Link>
+
+          <Link to="/policies">
+            & Privacy Policy</Link>
+        </p>
         <a href="" className="font-medium text-md mb-0 pb-0 self-start lg:self-end">
           usedaily.io
         </a>

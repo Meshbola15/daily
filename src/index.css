@@ -29,6 +29,14 @@
   background-position: center;
 }
 
+
+.sed{
+  background-position: top;
+  background-image: url("./Assets/bg.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
 .padding-background {
   padding-left: 3rem /* 48px */;
   padding-right: 3rem /* 48px */;
@@ -36,6 +44,10 @@
 
 @media (max-width: 640px) {
   .bg-img {
-    background-size: 100%;
+    background-size: 60%;
+  }
+  .bg-img-home {
+    background-size: 60%;
+    background-position: center center;
   }
 }

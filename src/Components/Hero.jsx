@@ -1,7 +1,7 @@
 import React from "react";
 import Iphone from "../Assets/iphone.png";
 import App from "../Assets/Daily_card.svg";
-import Card from "../Assets/Card.svg";
+import Card from "../Assets/Card.png";
 import bitcoin from "../Assets/Bitcoin.png";
 import bitcoinExchange from "../Assets/Dollar.png";
 import star from "../Assets/Hand.png";
@@ -14,7 +14,7 @@ const Hero = () => {
 
   return (
     <div className="w-full min-h-screen gradient-background px-10 py-10 lg:px-12 lg:py-5">
-      <h2 className="text-white text-[25px] lg:text-[40px] font-bold mb-20 lg:mb-5 bg-transparent">
+      <h2 className="text-white text-[25px] lg:text-[40px] font-bold mb-20 lg:mb-5 bg-none absolute top-4">
         Daily
       </h2>
       <div className="flex items-center justify-between flex-col lg:flex-row w-full bg-img">
@@ -38,7 +38,7 @@ const Hero = () => {
         <img
           src={Iphone}
           alt="Image"
-          className=" mt-12 h-auto w-full lg:-mt-[30px] lg:mr-[120px] lg:w-auto lg:h-[95vh] mr-0 pr-0"
+          className=" mt-12 h-auto w-full md:w-[70vw] lg:mr-[120px] lg:w-auto lg:h-[95vh] mr-0 pr-0"
         />
         {/* <img src="" alt="" class /> */}
       </div>
@@ -55,7 +55,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="my-20 bg-img lg:min-h-screen flex items-center flex-col lg:flex-row justify-between">
+      <div className="my-20 sed lg:min-h-screen flex items-center flex-col lg:flex-row justify-between">
         <div className="flex items-start w-full lg:w-1/2 justify-start flex-col">
           <div className="items-center flex flex-row justify-start mb-4">
             <img
