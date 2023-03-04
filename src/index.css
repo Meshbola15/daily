@@ -8,9 +8,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
-  /* background-image: url("./Assets/Background.svg");
-  background-size: cover;
-  background-repeat: no-repeat; */
 }
 
 .gradient-background {
@@ -44,10 +41,10 @@
 
 @media (max-width: 640px) {
   .bg-img {
-    background-size: 60%;
+    background-size: 80%;
   }
   .bg-img-home {
-    background-size: 60%;
+    background-size: 80%;
     background-position: center center;
   }
 }

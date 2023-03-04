@@ -44,9 +44,9 @@ const Hero = () => {
       </div>
       <div className="flex flex-col b items-center justify-center my-[120px] text-center lg:text-left lg:my-0 lg:min-h-screen lg:justify-between lg:flex-row">
         <img src={Card} alt="Daily_card" className="lg:mt-0 mt-20" />
-        <div className="text-white w-full h-auto lg:w-[45vw]">
+        <div className="text-white mt-6 lg:mt-0 w-full h-auto lg:w-[45vw]">
           <h2 className="text-5xl font-bold mb-5">Daily</h2>
-          <p className="text-lg lg:text-xl text-neutral-400">
+          <p className="text-lg lg:text-xl text-neutral-400 lg:mt-0">
             "Daily connects your custodial and non-custodial wallets, allowing
             you to spend your cryptocurrencies anytime, anywhere, instantly
             using Apple Pay or Google Pay without identity verification, all
